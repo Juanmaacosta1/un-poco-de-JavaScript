@@ -1,13 +1,15 @@
-//creo una faunción basica que suma 2 numeros 
-//le paso los parametros 
-function suma(num1,num2){
-    const  resultado= num1+num2;
+//area de un rect
+//creo la función 
+function area (base,altura){
 
-    //devuelvo lo que haga la funcion 
-    return(resultado);
+    resultado = base*altura;
+    return(resultado); 
 }
+//valores 
+let base = 9;
+let altura = 4;
+//llamo a la función 
+let resultado = area(base,altura);
 
-//pongo lo que quiero sumar
-let resultado = suma(3, 5);
-//muestro por pantalla el resultado 
+//imprimo en pantalla el resultado 
 console.log(resultado);
